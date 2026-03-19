@@ -1,0 +1,94 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{nhess-24-1555-2024}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=57e6a8ab15e8c1dad8a4bda7b4a3f705}{%
+           family={Severino},
+           familyi={S\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=64d5529fc66e5344e072b2f58be62345}{%
+           family={Kropf},
+           familyi={K\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ffe1bc9b7ff008ef09e2cc219d2733e2}{%
+           family={Afargan-Gerstman},
+           familyi={A\bibinithyphendelim G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bc333caed840e83be2014a23a5c287cf}{%
+           family={Fairless},
+           familyi={F\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9f7039cdf5c5d27e9ad718af323336e9}{%
+           family={Vries},
+           familyi={V\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=e0b466afa59b9eba70a887bcf4cf9969}{%
+           family={Domeisen},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi I.\bibnamedelimi V.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=6f460346b53217696e37a2f2a8b3fc47}{%
+           family={Bresch},
+           familyi={B\bibinitperiod},
+           given={D.\bibnamedelimi N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{867023d0c6b4253a40bab069f6e2e963}
+      \strng{fullhash}{d0d5cb73c5cccd40a22b7a3eaeff2880}
+      \strng{fullhashraw}{d0d5cb73c5cccd40a22b7a3eaeff2880}
+      \strng{bibnamehash}{867023d0c6b4253a40bab069f6e2e963}
+      \strng{authorbibnamehash}{867023d0c6b4253a40bab069f6e2e963}
+      \strng{authornamehash}{867023d0c6b4253a40bab069f6e2e963}
+      \strng{authorfullhash}{d0d5cb73c5cccd40a22b7a3eaeff2880}
+      \strng{authorfullhashraw}{d0d5cb73c5cccd40a22b7a3eaeff2880}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Natural Hazards and Earth System Sciences}
+      \field{number}{5}
+      \field{title}{Projections and uncertainties of winter windstorm damage in Europe in a changing climate}
+      \field{volume}{24}
+      \field{year}{2024}
+      \field{pages}{1555\bibrangedash 1578}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.5194/nhess-24-1555-2024
+      \endverb
+      \verb{urlraw}
+      \verb https://nhess.copernicus.org/articles/24/1555/2024/
+      \endverb
+      \verb{url}
+      \verb https://nhess.copernicus.org/articles/24/1555/2024/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

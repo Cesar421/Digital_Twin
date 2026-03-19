@@ -1,0 +1,182 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{eurodyn2026website}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fdae9f7f3f4f179307f14ebc6e5314e9}{%
+           family={Organisers},
+           familyi={O\bibinitperiod},
+           given={EURODYN\bibnamedelima 2026},
+           giveni={E\bibinitperiod\bibinitdelim 2\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdae9f7f3f4f179307f14ebc6e5314e9}
+      \strng{fullhash}{fdae9f7f3f4f179307f14ebc6e5314e9}
+      \strng{fullhashraw}{fdae9f7f3f4f179307f14ebc6e5314e9}
+      \strng{bibnamehash}{fdae9f7f3f4f179307f14ebc6e5314e9}
+      \strng{authorbibnamehash}{fdae9f7f3f4f179307f14ebc6e5314e9}
+      \strng{authornamehash}{fdae9f7f3f4f179307f14ebc6e5314e9}
+      \strng{authorfullhash}{fdae9f7f3f4f179307f14ebc6e5314e9}
+      \strng{authorfullhashraw}{fdae9f7f3f4f179307f14ebc6e5314e9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{online}
+      \field{title}{EURODYN 2026 Conference Website}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://eurodyn2026.org
+      \endverb
+      \verb{url}
+      \verb https://eurodyn2026.org
+      \endverb
+    \endentry
+    \entry{Brown2022}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=1e35d208a955c9174b8e0e02d3efaed2}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Utopia City}%
+      }
+      \list{publisher}{1}{%
+        {Imaginary Publishing House}%
+      }
+      \strng{namehash}{1e35d208a955c9174b8e0e02d3efaed2}
+      \strng{fullhash}{1e35d208a955c9174b8e0e02d3efaed2}
+      \strng{fullhashraw}{1e35d208a955c9174b8e0e02d3efaed2}
+      \strng{bibnamehash}{1e35d208a955c9174b8e0e02d3efaed2}
+      \strng{authorbibnamehash}{1e35d208a955c9174b8e0e02d3efaed2}
+      \strng{authornamehash}{1e35d208a955c9174b8e0e02d3efaed2}
+      \strng{authorfullhash}{1e35d208a955c9174b8e0e02d3efaed2}
+      \strng{authorfullhashraw}{1e35d208a955c9174b8e0e02d3efaed2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{isbn}{978-0-98765-432-1}
+      \field{title}{The Art of Making Up References: A Guide for LaTeX Enthusiasts}
+      \field{year}{2022}
+    \endentry
+    \entry{Smith2023}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=68a85ff2646eb97c21c355b03b13a405}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=836eef4f80daa32fdf092d106582ca1b}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=a2693716158322590ecde7b42087ab71}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Liang},
+           giveni={L\bibinitperiod}}}%
+        {{hash=309bfa7a776c9c75b7670553709c48be}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Priya},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Atlantis}%
+      }
+      \list{publisher}{1}{%
+        {Fictional Press}%
+      }
+      \strng{namehash}{ec15979d80cf705cd5340773cc48f3be}
+      \strng{fullhash}{ec15979d80cf705cd5340773cc48f3be}
+      \strng{fullhashraw}{ec15979d80cf705cd5340773cc48f3be}
+      \strng{bibnamehash}{ec15979d80cf705cd5340773cc48f3be}
+      \strng{authorbibnamehash}{ec15979d80cf705cd5340773cc48f3be}
+      \strng{authornamehash}{ec15979d80cf705cd5340773cc48f3be}
+      \strng{authorfullhash}{ec15979d80cf705cd5340773cc48f3be}
+      \strng{authorfullhashraw}{ec15979d80cf705cd5340773cc48f3be}
+      \strng{editorbibnamehash}{90093ce311cd08e03e92b2f397916797}
+      \strng{editornamehash}{90093ce311cd08e03e92b2f397916797}
+      \strng{editorfullhash}{90093ce311cd08e03e92b2f397916797}
+      \strng{editorfullhashraw}{90093ce311cd08e03e92b2f397916797}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 31st International Conference on Unrealistic Simulations (ICUS 2023)}
+      \field{title}{Towards a Unified Theory of Hyper‑Realistic Virtual Environments}
+      \field{year}{2023}
+      \field{pages}{112\bibrangedash 119}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.5678/icus.2023.00112
+      \endverb
+    \endentry
+    \entry{Doe2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d6cfb2b8c4b3f9440ec4642438129367}{%
+           family={Doe},
+           familyi={D\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=57636c01799cb80baf4d9c2b4040ddc4}{%
+           family={Public},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima Q.},
+           giveni={J\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{e80b275947ae3bb85606ba76553870c5}
+      \strng{fullhash}{e80b275947ae3bb85606ba76553870c5}
+      \strng{fullhashraw}{e80b275947ae3bb85606ba76553870c5}
+      \strng{bibnamehash}{e80b275947ae3bb85606ba76553870c5}
+      \strng{authorbibnamehash}{e80b275947ae3bb85606ba76553870c5}
+      \strng{authornamehash}{e80b275947ae3bb85606ba76553870c5}
+      \strng{authorfullhash}{e80b275947ae3bb85606ba76553870c5}
+      \strng{authorfullhashraw}{e80b275947ae3bb85606ba76553870c5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Speculative Computing}
+      \field{number}{2}
+      \field{title}{A Comprehensive Survey of Imaginary Algorithms in Quantum Widgets}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{pages}{45\bibrangedash 78}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1234/jsc.2024.01302
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
