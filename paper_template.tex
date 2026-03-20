@@ -65,7 +65,7 @@
 
 \section{Introduction}
 
-\subsection{Climate change and built heritage}
+
 \noindent Anthropogenic climate change is driving a measurable increase in the frequency
 and intensity of extreme wind events across Central Europe
 \cite{nhess-24-1555-2024}. Structures that were designed in the mid-to-late twentieth
@@ -80,9 +80,9 @@ typologies systems, relying on pre-engineered
 large-format concrete wall and floor panels connected by in-situ mortar joints
 and steel tie rods. Such construction provides moderate lateral stiffness but
 some degree of ductility, and the long-term performance of the joint connections under
-cyclic wind loading remains incompletely understood.
+cyclic wind loading remains incompletely understood.\\
 
-\subsection{The Jakobsplan building in Weimar}
+
 \noindent The subject of this investigation is the Jakobsplan residential complex located
 in Weimar, Thuringia, Germany (Figure~\ref{fig:jakobsplant_building}). The
 estate was constructed during the GDR period and is representative of the
@@ -101,9 +101,8 @@ service life. Coupled with the increasing wind-load demands projected under
 climate change scenarios, this raises legitimate concerns about the structural
 resilience of such heritage buildings and motivates the development of
 affordable, continuous monitoring solutions accessible to building owners and
-local authorities alike.
+local authorities alike.\\
 
-\subsection{Structural health monitoring and digital twins}
 \noindent Structural Health Monitoring is the process of implementing a damage-detection
 and characterisation strategy for engineering structures. In the context of
 operational modal analysis (OMA), ambient vibration measurements obtained
@@ -124,24 +123,7 @@ measurement units (IMUs), have matured to the point where low-cost alternatives
 can deliver scientifically sound data quality. This work demonstrates such a
 system and reports on its first full-scale deployment.
 
-\begin{figure}[H]
-  \begin{center}
-    \begin{subfigure}[t]{0.48\textwidth}
-        \centering
-        \includegraphics[width=0.65\linewidth]{Implementation_Jakobsplant_Photos_5}
-        \caption{Exterior view of the Jakobsplan complex during construction (1971).}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[t]{0.48\textwidth}
-        \centering
-        \includegraphics[width=0.75\linewidth]{Implementation_Jakobsplant_Photos_1}
-        \caption{Exterior view of the Jakobsplan complex after renovation (current state).}
-    \end{subfigure}
-    \caption{Jakobsplan building, Weimar --- photographic documentation of the
-             case-study structure.}
-    \label{fig:jakobsplant_building}
-  \end{center}
-\end{figure}
+
 
 %\subsection{Paper organisation}
 %Section~\ref{sec:methodology} describes the two methodological approaches
@@ -152,7 +134,7 @@ system and reports on its first full-scale deployment.
 %will interpret the identified modal parameters in the context of wind load
 %assessment and Digital Twin model calibration.
 
-\vspace{-40pt}
+\vspace{-10pt}
 \section{Methodology}
 \label{sec:methodology}
 
@@ -170,22 +152,54 @@ providing a practical blueprint for similar monitoring initiatives in other buil
     \begin{subfigure}[t]{1.05\textwidth}
         \centering
         \includegraphics[width=\linewidth]{Methodological_Approach_1_1}
-        \caption{Overall conceptual framework: from physical asset to Digital Twin methodology approach 1.}
+        \caption{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{1.05\textwidth}
         \centering
         \includegraphics[width=1\linewidth]{Methodological_Approach_2_1}
-        \caption{Overall conceptual framework: from physical asset to Digital Twin methodology approach 2.}
+        \caption{}
     \end{subfigure}
     %\begin{subfigure}[t]{0.30\textwidth}
         %\centering
         %\includegraphics[width=\linewidth]{Methodological_Approach_1_4}
         %\caption{Nordic Thingy:53 sensor node used for data acquisition in the Digital Twin framework.}
     %\end{subfigure}
-    \caption{Methodological Approach 1 and 2 --- Digital Twin framework
-    for wind load assessment of GDR-era heritage buildings.}
+    \caption{Methodological approach for the digital twin framework: (a) MQTT and PostgreSQL; 
+    (b) local data acquisition and processing workflow for wind load assessment of GDR-era heritage buildings.}
     \label{fig:method1}
+  \end{center}
+\end{figure}
+
+\subsection{Digital Twin framework}
+
+\noindent The conceptual foundation of this work is the Digital Twin paradigm, illustrated
+in Figure~\ref{fig:digital_twin}. A Digital Twin is a virtual replica of a
+physical system that enables real-time monitoring, analysis, and
+decision-making through a closed feedback loop connecting four main components.
+
+
+The \textbf{Physical Twin} encompasses the real-world assets under study 
+objects (buildings and infrastructure), processes (operational workflows), and
+systems (interconnected structural components). \textbf{Data collection} forms
+the bridge between the physical and digital worlds: sensors, IoT devices, and
+measurement instruments continuously capture data from the physical twin and
+feed it into the digital entity. The \textbf{Digital Entity} (Virtual Twin) is
+the computational replica, built on representative models (3D geometry, BIM,
+simulation models), a data management layer for storage and organisation of
+incoming records, and data analytics modules for processing and interpretation
+(statistical methods, machine learning). Finally, the \textbf{Services,
+Information and Decision} stage translates insights from the digital entity
+into actionable outputs that are fed back to influence the physical twin,
+closing the loop. At the centre of the cycle sits the principle of
+human-centric design, emphasising that all stages ultimately serve human
+decision-makers.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.85\linewidth]{Digital_Twin}
+    \caption{Digital Twin framework}
+    \label{fig:digital_twin}
   \end{center}
 \end{figure}
 
@@ -208,7 +222,66 @@ providing a practical blueprint for similar monitoring initiatives in other buil
 %  \end{center}
 %\end{figure}
 
-\subsection{Sensor node design and assembly}
+
+\subsection{Signal processing and FFT analysis}
+
+\noindent The recorded acceleration signals were transformed into the
+frequency domain using the Fast Fourier Transform (FFT), as given by
+Equation~\ref{eq:fft},
+
+\begin{equation}
+    X(f_k) = \sum_{n=0}^{N-1} x(n)\, e^{-j\,2\pi k n / N}, \quad
+    k = 0, 1, \ldots, N-1
+    \label{eq:fft}
+\end{equation}
+
+\noindent where $x(n)$ is the $n$-th discrete acceleration sample, $N$ is the total
+number of samples, and $f_k = k\,f_s / N$ is the frequency corresponding to
+bin $k$ at sampling frequency $f_s$. The dominant peaks in the resulting
+spectrum were identified as the principal natural frequencies (modes) of the
+structure.
+
+
+
+
+\section{Case Study}
+\label{sec:results}
+
+\subsection{Physical Twin of the Jakobsplan building}
+
+[To be completed by Singh.]
+
+
+\begin{figure}[H]
+  \begin{center}
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=0.65\linewidth]{Implementation_Jakobsplant_Photos_5}
+        \caption{Exterior view of the Jakobsplan complex during construction (1971).}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=0.75\linewidth]{Implementation_Jakobsplant_Photos_1}
+        \caption{Exterior view of the Jakobsplan complex after renovation (current state).}
+    \end{subfigure}
+    \caption{Jakobsplan building, Weimar --- photographic documentation of the
+             case-study structure.}
+    \label{fig:jakobsplant_building}
+  \end{center}
+\end{figure}
+
+\subsection{Data Collection}
+
+[To be completed by Cesar and Itzel.] \\
+
+
+\noindent\textbf{Weather Station}
+
+\noindent [To be completed by Itzel.] \\
+
+
+\subsubsection{Sensor node design and assembly}
 
 \noindent Three hardware platforms were evaluated for low-cost ambient-vibration data
 acquisition, each paired with a suitable acceleration sensor. The primary
@@ -273,7 +346,10 @@ range set to $\pm$\,2\,$g$. The assembled devices are illustrated in Figure~\ref
   \end{center}
 \end{figure}
 
-\subsection{Firmware and data acquisition}
+
+
+
+\subsubsection{Firmware and data acquisition}
 
 \noindent The firmware for the Thingy:53 nodes was written in C using the nRF Connect SDK
 and manages the following tasks: (1) accelerometer initialisation and configuration;
@@ -291,7 +367,7 @@ without mutual interference. All raw acceleration records were persisted in a
 timestamped tri-axial acceleration samples indexed by node identifier and
 measurement session.
 
-\subsection{Sensor placement in the Jakobsplan building}
+\subsubsection{Sensor placement in the Jakobsplan building}
 \label{sec:placement}
 
 \noindent Sensor positions were selected to try to capture the dominant translational and
@@ -325,35 +401,27 @@ Figure~\ref{fig:sensor_positions}.
   \end{center}
 \end{figure}
 
-\subsection{Signal processing and FFT analysis}
+\subsection{Virtual Twin}
 
-\noindent The recorded acceleration signals were transformed into the
-frequency domain using the Fast Fourier Transform (FFT), as given by
-Equation~\ref{eq:fft},
+\noindent [To be completed Singh BIM and FEM model.]
+\subsubsection{Wind statistics}
+\noindent [To be completed by Itzel.]
+\subsubsection{BIM and FEM model}
+\noindent [To be completed by Singh.]
+\subsubsection{Data Base management and visualization}
+\noindent [To be completed by Cesar.]
 
-\begin{equation}
-    X(f_k) = \sum_{n=0}^{N-1} x(n)\, e^{-j\,2\pi k n / N}, \quad
-    k = 0, 1, \ldots, N-1
-    \label{eq:fft}
-\end{equation}
+\subsubsection{Data Processing}
+\noindent [To be completed by Itzel.]
 
-\noindent where $x(n)$ is the $n$-th discrete acceleration sample, $N$ is the total
-number of samples, and $f_k = k\,f_s / N$ is the frequency corresponding to
-bin $k$ at sampling frequency $f_s$. The dominant peaks in the resulting
-spectrum were identified as the principal natural frequencies (modes) of the
-structure.
+put fft and PSD
+\subsection{Human Loop and decision making}
 
-\section{Results}
-\label{sec:results}
-
-\subsection{In-situ sensor deployment}
-
-[To be completed.]
+\noindent [To be completed by Anastasia.]
 
 
-\subsection{Identified natural frequencies}
 
-[To be completed.]
+
 
 \begin{table}[ht]
   \begin{center}
@@ -372,13 +440,10 @@ structure.
   \label{tab:frequencies}
 \end{table}
 
-\section{Discussion}
+\section{Conclusions and future work}
 \noindent [To be completed.]
 
-\section{Conclusions}
-\noindent [To be completed.]
-
-\section*{Acknowledgements}
+\section*{Acknowledgements} 
 \noindent [To be completed.]
 
 \printbibliography{}

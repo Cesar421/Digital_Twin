@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber paper_template"] 1773755259.44578 "paper_template.bcf" "paper_template.bbl" "paper_template" 1773913711.4496 0
-  "paper_template.bcf" 1773913710 108018 8e46fe56888111bbff732c8e9b96098b "pdflatex"
+["biber paper_template"] 1773755259.44578 "paper_template.bcf" "paper_template.bbl" "paper_template" 1774018297.33958 0
+  "paper_template.bcf" 1774018296 108018 8e46fe56888111bbff732c8e9b96098b "pdflatex"
   "references.bib" 1773754007 1905 a8261e6f8e3d739f79e4b953b932e4fd ""
   (generated)
   "paper_template.bbl"
   "paper_template.blg"
   (rewritten before read)
-["pdflatex"] 1773913706.54289 "c:/Users/verwalter/Desktop/Cesar/Abstract/paper_template.tex" "paper_template.pdf" "paper_template" 1773913711.45116 0
+["pdflatex"] 1774018291.47021 "c:/Users/verwalter/Desktop/Cesar/Abstract/paper_template.tex" "paper_template.pdf" "paper_template" 1774018297.34121 0
   "C:/Users/verwalter/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773736605 165632 9949a0d22d8ab44f01bad2b9128da1be ""
   "C:/Users/verwalter/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1768243826 13323558 5b081ada456f7b7c090b766394ee5a2e ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc" 1736607166 2211 c42193888177bc8f86d55dca129a9358 ""
@@ -167,6 +167,7 @@
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
+  "Images/Digital_Twin.png" 1774008439 3533287 532fc000f194548606e624e1bf4fbc6c ""
   "Images/Implementation_1.png" 1773673015 109708 140a7242678ee6d8ad0f051fe63acddd ""
   "Images/Implementation_2.png" 1773673025 109189 aa094166e0cf464651269428f8b0a3fa ""
   "Images/Implementation_3.png" 1773673038 30035 41fe8929e37b1802d6de2c7f36a067a7 ""
@@ -177,13 +178,13 @@
   "Images/position_sensors_DataPostproccesing_1.png" 1773853864 870063 7bdd2853e6712f2d165627901a0799ca ""
   "Images/position_sensors_DataPostproccesing_2.png" 1773853915 1050570 0f8cd49da45ca3994f31bc17af25a3e7 ""
   "Images/position_sensors_DataPostproccesing_3.png" 1773853974 1051691 201e35351d95ebe4519a178b0176433e ""
-  "c:/Users/verwalter/Desktop/Cesar/Abstract/paper_template.tex" 1773913705 18723 fee3d9deb316724f3b2f09064ab9111d ""
+  "c:/Users/verwalter/Desktop/Cesar/Abstract/paper_template.tex" 1774018284 20743 31951d2e1058a2a3d544ba5d0df0f8ad ""
   "eurodyn2026.cls" 1773736523 4569 1b171b7f923f417ec559e2ebdf909ba7 ""
-  "paper_template.aux" 1773913710 4713 659234ca251f3812a6e2e3c7bcbbac24 "pdflatex"
+  "paper_template.aux" 1774018296 5532 d33f1bdb26051ff456b8ba44102ff3db "pdflatex"
   "paper_template.bbl" 1773755262 3622 e706ba50ca91090af3f6e1d5e476f9e7 "biber paper_template"
-  "paper_template.out" 1773913710 2607 ef35799faedb1dc99f74daa084b415db "pdflatex"
-  "paper_template.run.xml" 1773913710 2416 c4d72c8eea36a924a1e518bcfd510250 "pdflatex"
-  "paper_template.tex" 1773913705 18723 fee3d9deb316724f3b2f09064ab9111d ""
+  "paper_template.out" 1774018296 3122 1ed403b83c5273bf1d3a9467c2fc6524 "pdflatex"
+  "paper_template.run.xml" 1774018296 2416 c4d72c8eea36a924a1e518bcfd510250 "pdflatex"
+  "paper_template.tex" 1774018284 20743 31951d2e1058a2a3d544ba5d0df0f8ad ""
   (generated)
   "paper_template.aux"
   "paper_template.bcf"
