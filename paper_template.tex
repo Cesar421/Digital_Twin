@@ -72,7 +72,7 @@ and intensity of extreme wind events across Central Europe
 century under then-current building codes are therefore subjected to wind
 demands that may significantly exceed their original design assumptions.
 For the case of Germany, this is particularly relevant for the large stock of prefabricated
-reinforced-concrete panel buildings known in German as
+reinforced-concrete \textit{(RC)} panel buildings known as
 \textit{Plattenbau} erected throughout the German Democratic Republic
 (GDR) between approximately 1960 and 1990. These buildings, which housed a
  fraction of the GDR urban population, were built to standardised
@@ -84,9 +84,7 @@ cyclic wind loading remains incompletely understood.\\
 
 
 \noindent The subject of this investigation is the Jakobsplan residential complex located
-in Weimar, Thuringia, Germany (Figure~\ref{fig:jakobsplant_building}). The
-estate was constructed during the GDR period and is representative of the
-large-panel typologies widespread across the former Eastern Bloc. The main
+in Weimar, Thuringia, Germany (Figure~\ref{fig:jakobsplant_building}). The main
 residential blocks are multi-storey structures built with prefabricated
 reinforced-concrete wall panels and flat slab floors (see the characteristic
 exterior and interior details in Figure~\ref{fig:jakobsplant_building}). The
@@ -95,9 +93,8 @@ At the time of the study the buildings were still in
 active residential use, providing a realistic and socially relevant test case
 for non-invasive, ambient-vibration-based SHM.\\
 
-\noindent Given their age, now exceeding 50 years, the Jakobsplan
-blocks are approaching or have already surpassed their originally intended
-service life. Coupled with the increasing wind-load demands projected under
+\noindent Given their age of over 50 years, the Jakobsplan blocks have reached
+or are nearing the end of their originally intended service life. Coupled with the increasing wind-load demands projected under
 climate change scenarios, this raises legitimate concerns about the structural
 resilience of such heritage buildings and motivates the development of
 affordable, continuous monitoring solutions accessible to building owners and
@@ -120,8 +117,7 @@ offers turnkey sensor systems capable of these functions, but at costs that are
 prohibitive for the majority of residential building owners. Open-source
 hardware platforms, particularly ESP32-class microcontrollers and MEMS inertial
 measurement units (IMUs), have matured to the point where low-cost alternatives
-can deliver scientifically sound data quality. This work demonstrates such a
-system and reports on its first full-scale deployment.
+can deliver scientifically sound data quality.
 
 
 
@@ -165,8 +161,10 @@ providing a practical blueprint for similar monitoring initiatives in other buil
         %\includegraphics[width=\linewidth]{Methodological_Approach_1_4}
         %\caption{Nordic Thingy:53 sensor node used for data acquisition in the Digital Twin framework.}
     %\end{subfigure}
-    \caption{Methodological approach for the digital twin framework: (a) MQTT and PostgreSQL; 
-    (b) local data acquisition and processing workflow for wind load assessment of GDR-era heritage buildings.}
+    \caption{Methodological approaches: (a)~Full Digital Twin workflow 
+    with real-time data acquisition, database integration, and model updating; 
+    (b)~Standalone data acquisition and post-processing workflow for 
+    offline analysis.}
     \label{fig:method1}
   \end{center}
 \end{figure}
@@ -257,31 +255,31 @@ structure.
     \begin{subfigure}[t]{0.48\textwidth}
         \centering
         \includegraphics[width=0.65\linewidth]{Implementation_Jakobsplant_Photos_5}
-        \caption{Exterior view of the Jakobsplan complex during construction (1971).}
+        \caption{}
     \end{subfigure}
     \hfill
     \begin{subfigure}[t]{0.48\textwidth}
         \centering
         \includegraphics[width=0.75\linewidth]{Implementation_Jakobsplant_Photos_1}
-        \caption{Exterior view of the Jakobsplan complex after renovation (current state).}
+        \caption{}
     \end{subfigure}
-    \caption{Jakobsplan building, Weimar --- photographic documentation of the
-             case-study structure.}
+    \caption{Jakobsplan building, Weimar --- a) Exterior view of the Jakobsplan complex during construction (1971); 
+    b) Exterior view of the Jakobsplan complex after renovation (current state).}
     \label{fig:jakobsplant_building}
   \end{center}
 \end{figure}
 
 \subsection{Data Collection}
 
-[To be completed by Cesar and Itzel.] \\
+[To be completed by Itzel.] \\
 
 
-\noindent\textbf{Weather Station}
+\subsubsection*{Weather Station}
 
-\noindent [To be completed by Itzel.] \\
+\noindent [To be completed by Itzel. here info about the wind conditions in Weimar, rose wind, analysis etc...] \\
 
 
-\subsubsection{Sensor node design and assembly}
+\subsubsection*{Sensor node design and assembly}
 
 \noindent Three hardware platforms were evaluated for low-cost ambient-vibration data
 acquisition, each paired with a suitable acceleration sensor. The primary
@@ -313,17 +311,17 @@ range set to $\pm$\,2\,$g$. The assembled devices are illustrated in Figure~\ref
     \begin{subfigure}[t]{0.3\textwidth}
         \centering
         \includegraphics[width=0.85\linewidth]{Implementation_1}
-        \caption{Raspberry Pi Zero W and MPU-6050 module.}
+        \caption{}
     \end{subfigure}\hfill
     \begin{subfigure}[t]{0.3\textwidth}
         \centering
         \includegraphics[width=\linewidth]{Implementation_2}
-        \caption{Soldering the MPU-6050 to ESP32.}
+        \caption{}
     \end{subfigure}\hfill
     \begin{subfigure}[t]{0.3\textwidth}
         \centering
         \includegraphics[width=\linewidth]{Implementation_3}
-        \caption{Thingy-53 sensor unit.}
+        \caption{}
     \end{subfigure}\\[6pt]
     %\begin{subfigure}[t]{0.3\textwidth}
     %    \centering
@@ -341,15 +339,14 @@ range set to $\pm$\,2\,$g$. The assembled devices are illustrated in Figure~\ref
     %    \caption{Board inserted into enclosure.}
     %\end{subfigure}
     \caption{Assembly of the low-cost IoT sensor:
-             Raspberry Pi, ESP32 microcontroller with MPU-6050 tri-axial accelerometer and Thingy - 53.}
+             a) Raspberry Pi Zero W and MPU-6050 module; 
+             b) ESP32 microcontroller with MPU-6050 tri-axial accelerometer; 
+             c) Thingy - 53.}
     \label{fig:assembly}
   \end{center}
 \end{figure}
 
-
-
-
-\subsubsection{Firmware and data acquisition}
+\subsubsection*{Firmware and data acquisition}
 
 \noindent The firmware for the Thingy:53 nodes was written in C using the nRF Connect SDK
 and manages the following tasks: (1) accelerometer initialisation and configuration;
@@ -367,7 +364,7 @@ without mutual interference. All raw acceleration records were persisted in a
 timestamped tri-axial acceleration samples indexed by node identifier and
 measurement session.
 
-\subsubsection{Sensor placement in the Jakobsplan building}
+\subsubsection*{Sensor placement in the Jakobsplan building}
 \label{sec:placement}
 
 \noindent Sensor positions were selected to try to capture the dominant translational and
@@ -383,20 +380,19 @@ Figure~\ref{fig:sensor_positions}.
     \begin{subfigure}[t]{\textwidth}
         \centering
         \includegraphics[width=0.7\linewidth]{position_sensors_DataPostproccesing_1}
-        \caption{Floor plan showing sensor locations.}
+        \caption{}
     \end{subfigure}\\[6pt]
     \begin{subfigure}[t]{\textwidth}
         \centering
         \includegraphics[width=0.7\linewidth]{position_sensors_DataPostproccesing_2}
-        \caption{Elevation view of sensor mounting heights.}
+        \caption{}
     \end{subfigure}\\[6pt]
     \begin{subfigure}[t]{\textwidth}
         \centering
         \includegraphics[width=0.7\linewidth]{position_sensors_DataPostproccesing_3}
-        \caption{Data post-processing pipeline.}
+        \caption{}
     \end{subfigure}
-    \caption{Sensor positions within the Jakobsplan building and
-             corresponding data post-processing workflow.}
+    \caption{Sensor positions: a) Roof plan; b) Floor 10 and 11; c) Floor 5.}
     \label{fig:sensor_positions}
   \end{center}
 \end{figure}
@@ -408,19 +404,65 @@ Figure~\ref{fig:sensor_positions}.
 \noindent [To be completed by Itzel.]
 \subsubsection{BIM and FEM model}
 \noindent [To be completed by Singh.]
-\subsubsection{Data Base management and visualization}
-\noindent [To be completed by Cesar.]
+
+\subsubsection{Database Management and Visualization}
+
+\noindent The database infrastructure described in this section 
+corresponds to the full Digital Twin workflow 
+(Methodological Approach~1, Figure~\ref{fig:method1}
+a), which implements real-time data acquisition, 
+centralized storage, and continuous model updating. \\
+
+\noindent \textbf{Database Architecture.} The sensor data management system employs PostgreSQL as the 
+relational database management system (RDBMS), hosted on a centralized server. The database implements 
+a normalized schema designed to accommodate multi-sensor, multi-channel time-series data 
+from the distributed IoT sensor network described in the previous sections. \\
+
+\noindent \textbf{Database Schema.} The schema follows a hierarchical relational structure organized into the following entities:
+\begin{itemize}
+    \item \textbf{Project}: Top-level organizational entity containing project metadata (name, owner).
+    \item \textbf{Object}: Physical structures or monitoring locations associated with projects.
+    \item \textbf{SensorType}: Classification of sensor hardware (e.g., Accelerometer), including version information.
+    \item \textbf{Sensor}: Individual sensor instances identified by unique identifiers (e.g., \texttt{BP-NT-53-AC-01}), linked to objects and sensor types.
+    \item \textbf{Channel}: Measurement channels associated with sensor types (e.g., $a_x$, $a_y$, $a_z$ for tri-axial accelerometers), including physical units.
+    \item \textbf{NumericalValue}: Primary data storage table containing the floating-point measurement value, channel identifier, timestamp, and sensor reference.
+\end{itemize}
+
+\noindent \textbf{Data Ingestion Pipeline.} The system implements a real-time streaming 
+architecture using the MQTT protocol. Thingy:53 sensors transmit data via BLE to a 
+Raspberry~Pi gateway, which publishes to a Mosquitto MQTT broker. 
+A Python bridge buffers data in batches of 10,000 records for bulk 
+insertion into PostgreSQL, maximizing throughput at 400~Hz per sensor. \\
+
+
+%\noindent Each sensor message contains calibrated acceleration data for the three orthogonal axes, converted from raw milligravity values using per-device calibration coefficients stored in a configuration file. The calibration formula applied is:
+%\begin{equation}
+%    a_{\mathrm{cal}} = \frac{a_{\mathrm{raw}} - \beta_{\mathrm{offset}}}{\gamma_{\mathrm{gain}}} \times g
+%    \label{eq:calibration}
+%\end{equation}
+%where $a_{\mathrm{cal}}$ is the calibrated acceleration in m/s$^2$, $a_{\mathrm{raw}}$ 
+%is the raw accelerometer reading in milligravity, $\beta_{\mathrm{offset}}$ 
+%is the sensor-specific zero-offset correction, $\gamma_{\mathrm{gain}}$ 
+%is the sensitivity gain in mg/$g$, and $g = 9.81$~m/s$^2$ is the standard gravitational acceleration. \\
+
+%\noindent \textbf{Database Operations.} The system supports the following operations 
+%through a SQLAlchemy Object-Relational Mapping (ORM) layer: (i)~automatic 
+%sensor registration when new devices are detected; (ii)~high-performance 
+%batch insertions with transaction management and rollback capabilities; 
+%(iii)~query interfaces for sensor readings filtered by sensor identifier, 
+%time range, and channel; and (iv)~CSV export functionality for offline analysis.\\
+
+\noindent \textbf{Visualization and Unity Integration.} For real-time visualization, 
+the Unity game engine connects to the PostgreSQL database to retrieve and 
+render sensor data within a three-dimensional representation of the 
+Jakobsplan building. Unity queries the database to obtain time-series acceleration data, 
+which is then mapped to visual representations of structural motion within the 3D environment. 
+This integration enables real-time monitoring and interactive visualization of structural vibrations, 
+providing an intuitive interface for stakeholders to observe sensor measurements 
+in the spatial context of the monitored structure.
 
 \subsubsection{Data Processing}
 \noindent [To be completed by Itzel.]
-
-put fft and PSD
-\subsection{Human Loop and decision making}
-
-\noindent [To be completed by Anastasia.]
-
-
-
 
 
 \begin{table}[ht]
@@ -435,10 +477,14 @@ put fft and PSD
     \end{tabular}
   \end{center}
   \caption{Natural frequencies identified from ambient vibration measurements
-           at the Jakobsplan building. Values to be completed following final
-           post-processing.}
+           at the Jakobsplan building.}
   \label{tab:frequencies}
 \end{table}
+put fft and PSD
+
+\subsection{Human Loop and decision making}
+
+\noindent [To be completed by Anastasia.]
 
 \section{Conclusions and future work}
 \noindent [To be completed.]

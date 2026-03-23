@@ -1,16 +1,17 @@
 # Fdb version 4
-["biber paper_template"] 1773755259.44578 "paper_template.bcf" "paper_template.bbl" "paper_template" 1774018297.33958 0
-  "paper_template.bcf" 1774018296 108018 8e46fe56888111bbff732c8e9b96098b "pdflatex"
+["biber paper_template"] 1773755259.44578 "paper_template.bcf" "paper_template.bbl" "paper_template" 1774284875.03093 0
+  "paper_template.bcf" 1774284874 108018 8e46fe56888111bbff732c8e9b96098b "pdflatex"
   "references.bib" 1773754007 1905 a8261e6f8e3d739f79e4b953b932e4fd ""
   (generated)
   "paper_template.bbl"
   "paper_template.blg"
   (rewritten before read)
-["pdflatex"] 1774018291.47021 "c:/Users/verwalter/Desktop/Cesar/Abstract/paper_template.tex" "paper_template.pdf" "paper_template" 1774018297.34121 0
+["pdflatex"] 1774284869.23447 "c:/Users/verwalter/Desktop/Cesar/Abstract/paper_template.tex" "paper_template.pdf" "paper_template" 1774284875.03283 0
   "C:/Users/verwalter/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773736605 165632 9949a0d22d8ab44f01bad2b9128da1be ""
   "C:/Users/verwalter/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1768243826 13323558 5b081ada456f7b7c090b766394ee5a2e ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc" 1736607166 2211 c42193888177bc8f86d55dca129a9358 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1736607166 2083 60e36f8eac802fcaf19eabe2633b406e ""
+  "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc" 1525740614 3124 3813fd4c981d99822890a2861b0d274c ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1233951854 928 2dc8d444221b7a635bb58038579b861a ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1233951854 908 2921f8a10601f252058503cc6570e581 ""
@@ -43,6 +44,7 @@
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/tfm/public/newtx/txmiaSTbb.tfm" 1736607165 920 99acdf374993fd46fd345f9cac168080 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/tfm/public/newtx/txmiaX.tfm" 1736607165 1708 e6ab41b8c6f33e297f8c7977f1424a40 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/tfm/public/newtx/txsys.tfm" 1736607165 1656 68b5079c64f1cefe2cf442b6a60cf2fd ""
+  "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm" 1254938640 1600 20cdf11dab97d5d39e847571f9314407 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/tfm/public/txfonts/txtt.tfm" 977342760 1200 1032be7d597a4dce33bcda3c08fc1be0 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb" 1736607166 32409 70669e52221234457749adcf327540bc ""
@@ -52,6 +54,7 @@
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb" 1736607166 255251 ff86dd5a515ecd222fc60cb2612549c9 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb" 1736607166 286816 c3d030d8c7fd436565d9670f5ca64aa0 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb" 1736607166 248316 ea891a047af89fa529ebd24643780319 ""
+  "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb" 1254938640 133302 c4942f65edfb6dde8dac434e6a2388b0 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb" 977342760 18134 15936cd318391c2532d84d9a2863d73e ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/vf/public/newtx/ntx-Bold-tlf-ot1.vf" 1736607166 956 0cf724d01d1d2d4ced0eca019099663a ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/vf/public/newtx/ntx-Italic-tlf-ot1.vf" 1736607166 956 2e470d34f6c84588eb717201f2f99e2d ""
@@ -152,6 +155,7 @@
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/tex/latex/newtx/ot1minntx.fd" 1736607166 2498 5cbe11c7caf802a0127dc4515daf85ea ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/tex/latex/newtx/ot1ntxtlf.fd" 1736607166 2241 e9e29b034b8eb01c46f61e2fc5a445b2 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/tex/latex/newtx/ot1ntxtt.fd" 1736607166 1494 56d4cfe3e20bd278ed0b52e1404df627 ""
+  "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/tex/latex/newtx/ts1ntxtlf.fd" 1736607166 1219 06811c362a6c86c10e17f80577d8ceee ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/tex/latex/newtx/untxexa.fd" 1736607166 558 91031960917530f42e0f8fc4d1db1550 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/tex/latex/newtx/untxmia.fd" 1736607166 4181 343926c9f03f7dd5c88e425dd9f47b91 ""
   "C:/Users/verwalter/AppData/Local/Programs/MiKTeX/tex/latex/newtx/untxsyc.fd" 1736607166 558 e8967b9c8273bc0c05b993fe92a9b757 ""
@@ -178,13 +182,13 @@
   "Images/position_sensors_DataPostproccesing_1.png" 1773853864 870063 7bdd2853e6712f2d165627901a0799ca ""
   "Images/position_sensors_DataPostproccesing_2.png" 1773853915 1050570 0f8cd49da45ca3994f31bc17af25a3e7 ""
   "Images/position_sensors_DataPostproccesing_3.png" 1773853974 1051691 201e35351d95ebe4519a178b0176433e ""
-  "c:/Users/verwalter/Desktop/Cesar/Abstract/paper_template.tex" 1774018284 20743 31951d2e1058a2a3d544ba5d0df0f8ad ""
+  "c:/Users/verwalter/Desktop/Cesar/Abstract/paper_template.tex" 1774284866 24191 73cd37ecf324e8eb9eb2bd1d044cd420 ""
   "eurodyn2026.cls" 1773736523 4569 1b171b7f923f417ec559e2ebdf909ba7 ""
-  "paper_template.aux" 1774018296 5532 d33f1bdb26051ff456b8ba44102ff3db "pdflatex"
+  "paper_template.aux" 1774284874 5160 e9e1cd1476821a47ab9acdbe4f525d71 "pdflatex"
   "paper_template.bbl" 1773755262 3622 e706ba50ca91090af3f6e1d5e476f9e7 "biber paper_template"
-  "paper_template.out" 1774018296 3122 1ed403b83c5273bf1d3a9467c2fc6524 "pdflatex"
-  "paper_template.run.xml" 1774018296 2416 c4d72c8eea36a924a1e518bcfd510250 "pdflatex"
-  "paper_template.tex" 1774018284 20743 31951d2e1058a2a3d544ba5d0df0f8ad ""
+  "paper_template.out" 1774284874 2359 8828cf3eeb3fde115339e00a5c579229 "pdflatex"
+  "paper_template.run.xml" 1774284874 2416 c4d72c8eea36a924a1e518bcfd510250 "pdflatex"
+  "paper_template.tex" 1774284866 24191 73cd37ecf324e8eb9eb2bd1d044cd420 ""
   (generated)
   "paper_template.aux"
   "paper_template.bcf"
