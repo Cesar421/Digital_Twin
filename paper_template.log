@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2026.1.12)  23 MAR 2026 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2026.1.12)  24 MAR 2026 13:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1022,69 +1022,46 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--84
+Underfull \hbox (badness 10000) in paragraph at lines 69--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--95
+Underfull \hbox (badness 10000) in paragraph at lines 79--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--102
+Underfull \hbox (badness 10000) in paragraph at lines 89--99
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--112
-
- []
-
-
-
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 145.
-
-Overfull \hbox (1.79993pt too wide) has occurred while \output is active
-[] 
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.145 
-       [2]
-<Images/Methodological_Approach_1_1.png, id=79, 869.04675pt x 87.17569pt>
+<Images/Methodological_Approach_1_1.png, id=72, 869.04675pt x 87.17569pt>
 File: Images/Methodological_Approach_1_1.png Graphic file (type png)
 <use Images/Methodological_Approach_1_1.png>
-Package pdftex.def Info: Images/Methodological_Approach_1_1.png  used on input line 150.
+Package pdftex.def Info: Images/Methodological_Approach_1_1.png  used on input line 128.
 (pdftex.def)             Requested size: 478.00766pt x 47.94942pt.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 151.
-<Images/Methodological_Approach_2_1.png, id=81, 885.75919pt x 90.78918pt>
+(Font)              scaled to size 10.95pt on input line 129.
+<Images/Methodological_Approach_2_1.png, id=74, 885.75919pt x 90.78918pt>
 File: Images/Methodological_Approach_2_1.png Graphic file (type png)
 <use Images/Methodological_Approach_2_1.png>
-Package pdftex.def Info: Images/Methodological_Approach_2_1.png  used on input line 156.
+Package pdftex.def Info: Images/Methodological_Approach_2_1.png  used on input line 134.
 (pdftex.def)             Requested size: 478.00766pt x 48.99493pt.
 
-Overfull \hbox (22.76358pt too wide) in paragraph at lines 148--167
+Overfull \hbox (22.76358pt too wide) in paragraph at lines 126--145
  [] 
  []
 
 
-Overfull \hbox (22.76358pt too wide) in paragraph at lines 148--167
+Overfull \hbox (22.76358pt too wide) in paragraph at lines 126--145
  [] 
  []
 
-<Images/Digital_Twin.png, id=83, 742.191pt x 417.633pt>
-File: Images/Digital_Twin.png Graphic file (type png)
-<use Images/Digital_Twin.png>
-Package pdftex.def Info: Images/Digital_Twin.png  used on input line 198.
-(pdftex.def)             Requested size: 386.96024pt x 217.74393pt.
 
 
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 156.
 
 Overfull \hbox (1.79993pt too wide) has occurred while \output is active
 [] 
@@ -1094,17 +1071,22 @@ Overfull \hbox (1.79993pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.203 
-       [3 <./Images/Methodological_Approach_1_1.png> <./Images/Methodological_Approach_2_1.png>]
-<Images/Implementation_Jakobsplant_Photos_5.png, id=91, 230.7822pt x 323.5287pt>
+l.156 
+       [2 <./Images/Methodological_Approach_1_1.png> <./Images/Methodological_Approach_2_1.png>]
+<Images/Digital_Twin.png, id=84, 742.191pt x 417.633pt>
+File: Images/Digital_Twin.png Graphic file (type png)
+<use Images/Digital_Twin.png>
+Package pdftex.def Info: Images/Digital_Twin.png  used on input line 176.
+(pdftex.def)             Requested size: 386.96024pt x 217.74393pt.
+<Images/Implementation_Jakobsplant_Photos_5.png, id=86, 230.7822pt x 323.5287pt>
 File: Images/Implementation_Jakobsplant_Photos_5.png Graphic file (type png)
 <use Images/Implementation_Jakobsplant_Photos_5.png>
-Package pdftex.def Info: Images/Implementation_Jakobsplant_Photos_5.png  used on input line 257.
+Package pdftex.def Info: Images/Implementation_Jakobsplant_Photos_5.png  used on input line 235.
 (pdftex.def)             Requested size: 142.03355pt x 199.10966pt.
-<Images/Implementation_Jakobsplant_Photos_1.png, id=92, 306.39468pt x 380.17032pt>
+<Images/Implementation_Jakobsplant_Photos_1.png, id=87, 306.39468pt x 380.17032pt>
 File: Images/Implementation_Jakobsplant_Photos_1.png Graphic file (type png)
 <use Images/Implementation_Jakobsplant_Photos_1.png>
-Package pdftex.def Info: Images/Implementation_Jakobsplant_Photos_1.png  used on input line 263.
+Package pdftex.def Info: Images/Implementation_Jakobsplant_Photos_1.png  used on input line 241.
 (pdftex.def)             Requested size: 163.8864pt x 203.3456pt.
 
 
@@ -1117,19 +1099,19 @@ Overfull \hbox (1.79993pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.271 
-       [4 <./Images/Digital_Twin.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+l.248 \end{figure}
+                   [3 <./Images/Digital_Twin.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 294.
+(Font)              scaled to size 8.8pt on input line 272.
 
 
 
@@ -1141,22 +1123,22 @@ Overfull \hbox (1.79993pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.307 
-       [5 <./Images/Implementation_Jakobsplant_Photos_5.png> <./Images/Implementation_Jakobsplant_Photos_1.png>]
-<Images/Implementation_1.png, id=107, 122.70844pt x 233.37187pt>
+l.285 
+       [4 <./Images/Implementation_Jakobsplant_Photos_5.png> <./Images/Implementation_Jakobsplant_Photos_1.png>]
+<Images/Implementation_1.png, id=103, 122.70844pt x 233.37187pt>
 File: Images/Implementation_1.png Graphic file (type png)
 <use Images/Implementation_1.png>
-Package pdftex.def Info: Images/Implementation_1.png  used on input line 313.
+Package pdftex.def Info: Images/Implementation_1.png  used on input line 291.
 (pdftex.def)             Requested size: 116.08923pt x 220.7904pt.
-<Images/Implementation_2.png, id=108, 182.93344pt x 241.65282pt>
+<Images/Implementation_2.png, id=104, 182.93344pt x 241.65282pt>
 File: Images/Implementation_2.png Graphic file (type png)
 <use Images/Implementation_2.png>
-Package pdftex.def Info: Images/Implementation_2.png  used on input line 318.
+Package pdftex.def Info: Images/Implementation_2.png  used on input line 296.
 (pdftex.def)             Requested size: 136.5746pt x 180.42426pt.
-<Images/Implementation_3.png, id=109, 134.00063pt x 96.36pt>
+<Images/Implementation_3.png, id=105, 134.00063pt x 96.36pt>
 File: Images/Implementation_3.png Graphic file (type png)
 <use Images/Implementation_3.png>
-Package pdftex.def Info: Images/Implementation_3.png  used on input line 323.
+Package pdftex.def Info: Images/Implementation_3.png  used on input line 301.
 (pdftex.def)             Requested size: 136.5746pt x 98.21088pt.
 
 
@@ -1169,22 +1151,22 @@ Overfull \hbox (1.79993pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.377 
-       [6 <./Images/Implementation_1.png> <./Images/Implementation_2.png> <./Images/Implementation_3.png>]
-<Images/position_sensors_DataPostproccesing_1.png, id=118, 822.345pt x 356.97pt>
+l.355 
+       [5 <./Images/Implementation_1.png> <./Images/Implementation_2.png> <./Images/Implementation_3.png>]
+<Images/position_sensors_DataPostproccesing_1.png, id=114, 822.345pt x 356.97pt>
 File: Images/position_sensors_DataPostproccesing_1.png Graphic file (type png)
 <use Images/position_sensors_DataPostproccesing_1.png>
-Package pdftex.def Info: Images/position_sensors_DataPostproccesing_1.png  used on input line 382.
+Package pdftex.def Info: Images/position_sensors_DataPostproccesing_1.png  used on input line 360.
 (pdftex.def)             Requested size: 318.66946pt x 138.33533pt.
-<Images/position_sensors_DataPostproccesing_2.png, id=119, 809.643pt x 439.314pt>
+<Images/position_sensors_DataPostproccesing_2.png, id=115, 809.643pt x 439.314pt>
 File: Images/position_sensors_DataPostproccesing_2.png Graphic file (type png)
 <use Images/position_sensors_DataPostproccesing_2.png>
-Package pdftex.def Info: Images/position_sensors_DataPostproccesing_2.png  used on input line 387.
+Package pdftex.def Info: Images/position_sensors_DataPostproccesing_2.png  used on input line 365.
 (pdftex.def)             Requested size: 318.66946pt x 172.91376pt.
-<Images/position_sensors_DataPostproccesing_3.png, id=120, 822.345pt x 361.569pt>
+<Images/position_sensors_DataPostproccesing_3.png, id=116, 822.345pt x 361.569pt>
 File: Images/position_sensors_DataPostproccesing_3.png Graphic file (type png)
 <use Images/position_sensors_DataPostproccesing_3.png>
-Package pdftex.def Info: Images/position_sensors_DataPostproccesing_3.png  used on input line 392.
+Package pdftex.def Info: Images/position_sensors_DataPostproccesing_3.png  used on input line 370.
 (pdftex.def)             Requested size: 318.66946pt x 140.11757pt.
 
 
@@ -1197,36 +1179,48 @@ Overfull \hbox (1.79993pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.405 \subsubsection{BIM and FEM model}
-                                        [7 <./Images/position_sensors_DataPostproccesing_1.png> <./Images/position_sensors_DataPostproccesing_2.png> <./Images/position_sensors_DataPostproccesing_3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 410--415
+l.377 
+       [6]
+
+
+Overfull \hbox (1.79993pt too wide) has occurred while \output is active
+[] 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.386 ...on{Database Management and Visualization}
+                                                   [7 <./Images/position_sensors_DataPostproccesing_1.png> <./Images/position_sensors_DataPostproccesing_2.png> <./Images/position_sensors_DataPostproccesing_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 388--393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 416--420
+Underfull \hbox (badness 10000) in paragraph at lines 394--398
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 423.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 401.
 (C:\Users\verwalter\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 423.
-LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line 426.
+(Font)              scaled to size 12.0pt on input line 401.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line 404.
  (C:\Users\verwalter\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1ntxtt.fd
 File: ot1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 426.
+(Font)              scaled to size 12.0pt on input line 404.
 
-Overfull \hbox (11.34984pt too wide) in paragraph at lines 426--427
+Overfull \hbox (11.34984pt too wide) in paragraph at lines 404--405
 []\OT1/ntxtlf/b/n/12 Sensor\OT1/minntx/m/n/12 : In-di-vid-ual sen-sor in-stances iden-ti-fied by unique iden-ti-fiers (e.g., \OT1/ntxtt/m/n/12 BP-NT-53-AC-01\OT1/minntx/m/n/12 ),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--436
+Underfull \hbox (badness 10000) in paragraph at lines 409--414
 
  []
 
@@ -1241,10 +1235,10 @@ Overfull \hbox (1.79993pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.482 \end{table}
-                  [8{C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+l.467 \section{Conclusions and future work}
+                                            [8{C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 495.
+(Font)              scaled to size 12.0pt on input line 473.
 
 
 
@@ -1256,7 +1250,7 @@ Overfull \hbox (1.79993pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.497 \end{document}
+l.475 \end{document}
                      [9{C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc}] (paper_template.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
@@ -1273,17 +1267,17 @@ Package logreq Info: Writing requests to 'paper_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24846 strings out of 468081
- 428251 string characters out of 5423853
+ 24845 strings out of 468081
+ 428243 string characters out of 5423853
  1259259 words of memory out of 5000000
- 53144 multiletter control sequences out of 15000+600000
+ 53143 multiletter control sequences out of 15000+600000
  673534 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,9n,131p,745b,1749s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/verwalter/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on paper_template.pdf (9 pages, 8757110 bytes).
+Output written on paper_template.pdf (9 pages, 8755318 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
+ 196 PDF objects out of 1000 (max. 8388607)
  24 named destinations out of 1000 (max. 500000)
  168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
