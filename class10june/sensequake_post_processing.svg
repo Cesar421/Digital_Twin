@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 600 450">
+  <title>Post-procesamiento Sensequake - Visualización de Datos</title>
+  <desc>Laptop mostrando datos de monitoreo de salud estructural con gráficas y un modelo 3D del edificio.</desc>
+
+  <!-- Background Desk Surface -->
+  <rect x="50" y="360" width="500" height="10" rx="2" fill="#e0e0e0" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Laptop Base with Keyboard -->
+  <path d="M100,310 L500,310 L540,360 L60,360 Z" fill="#b0b0b0" stroke="#888" stroke-width="1"/>
+  <!-- Keyboard area -->
+  <rect x="130" y="315" width="340" height="25" rx="2" fill="#999" opacity="0.5"/>
+  <rect x="250" y="345" width="100" height="12" rx="2" fill="#888"/> <!-- Trackpad -->
+
+  <!-- Laptop Screen Lid -->
+  <rect x="120" y="40" width="360" height="270" rx="8" fill="#333" stroke="#222" stroke-width="2"/>
+  
+  <!-- Actual Screen Content -->
+  <rect x="135" y="55" width="330" height="240" fill="#fcfcfc"/>
+  
+  <!-- Screen Gloss Effect -->
+  <path d="M135,55 L465,55 L135,150 Z" fill="white" opacity="0.05"/>
+
+  <!-- Sidebar / Toolbar -->
+  <rect x="135" y="55" width="40" height="240" fill="#f0f0f0" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="145" y="70" width="20" height="2" fill="#ccc"/>
+  <rect x="145" y="80" width="20" height="2" fill="#ccc"/>
+  <rect x="145" y="90" width="20" height="2" fill="#ccc"/>
+  <rect x="145" y="100" width="20" height="2" fill="#ccc"/>
+  <rect x="145" y="110" width="20" height="2" fill="#ccc"/>
+  <rect x="145" y="120" width="20" height="2" fill="#ccc"/>
+
+  <!-- Main Chart Area (Top Left) -->
+  <rect x="185" y="65" width="130" height="100" rx="4" fill="white" stroke="#eee" stroke-width="1"/>
+  <text x="190" y="78" style="font-family:'Segoe UI', sans-serif; font-size:9px; font-weight:700; fill:#555;">Acceleration (g)</text>
+  <!-- Signal Line -->
+  <polyline points="190,130 200,120 210,150 220,90 230,140 240,110 250,135 260,100 270,125 280,115 300,125" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+
+  <!-- FFT / Spectrum Area (Bottom Left) -->
+  <rect x="185" y="180" width="130" height="100" rx="4" fill="white" stroke="#eee" stroke-width="1"/>
+  <text x="190" y="193" style="font-family:'Segoe UI', sans-serif; font-size:9px; font-weight:700; fill:#555;">Frequency Spectrum</text>
+  <!-- FFT Bars -->
+  <rect x="195" y="250" width="8" height="20" fill="#2471a3"/>
+  <rect x="210" y="210" width="8" height="60" fill="#2471a3"/> <!-- Peak -->
+  <rect x="225" y="240" width="8" height="30" fill="#2471a3"/>
+  <rect x="240" y="255" width="8" height="15" fill="#2471a3"/>
+  <rect x="255" y="225" width="8" height="45" fill="#2471a3"/>
+
+  <!-- 3D Model View Area (Right) -->
+  <rect x="330" y="65" width="125" height="215" rx="4" fill="#eef2f5" stroke="#ddd" stroke-width="1"/>
+  <text x="335" y="78" style="font-family:'Segoe UI', sans-serif; font-size:9px; font-weight:700; fill:#555;">Structural Model </text>
+  
+  <!-- Wireframe Building -->
+  <g transform="translate(355, 120) skewX(-10)">
+    <!-- Levels -->
+    <line x1="0" y1="0" x2="60" y2="0" stroke="#888" stroke-width="0.8"/>
+    <line x1="0" y1="30" x2="60" y2="30" stroke="#888" stroke-width="0.8"/>
+    <line x1="0" y1="60" x2="60" y2="60" stroke="#888" stroke-width="0.8"/>
+    <line x1="0" y1="90" x2="60" y2="90" stroke="#888" stroke-width="0.8"/>
+    <line x1="0" y1="120" x2="60" y2="120" stroke="#888" stroke-width="0.8"/>
+    <!-- Columns -->
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#888" stroke-width="0.8"/>
+    <line x1="30" y1="0" x2="30" y2="120" stroke="#888" stroke-width="0.8"/>
+    <line x1="60" y1="0" x2="60" y2="120" stroke="#888" stroke-width="0.8"/>
+    <!-- Modal shape dots -->
+    <circle cx="30" cy="0" r="3" fill="#c0392b" opacity="0.8"/>
+    <circle cx="60" cy="30" r="3" fill="#c0392b" opacity="0.8"/>
+    <circle cx="30" cy="90" r="3" fill="#c0392b" opacity="0.8"/>
+  </g>
+
+  <!-- Labels on screen -->
+  <text x="340" y="255" style="font-family:'Segoe UI', sans-serif; font-size:8px; fill:#2471a3; font-weight:600;">Processing: 100%</text>
+  <text x="340" y="268" style="font-family:'Segoe UI', sans-serif; font-size:8px; fill:#15b086; font-weight:700;">Modes Identified: 3</text>
+
+
+  <!-- Processing Indicator / Spinner icon -->
+  <circle cx="440" cy="75" r="6" fill="none" stroke="#15b086" stroke-width="2" stroke-dasharray="10 5"/>
+
+  <!-- Legend Overlay -->
+  <text x="300" y="380" text-anchor="middle" style="font-family:'Segoe UI', sans-serif; font-size:14px; font-weight:700; fill:#333;">Post-processing</text>
+  <text x="300" y="400" text-anchor="middle" style="font-family:'Segoe UI', sans-serif; font-size:11px; fill:#666;">Modal Analysis and Data Visualization</text>
+
+</svg>
